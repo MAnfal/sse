@@ -9,6 +9,6 @@
             "email": "muhammadanfal0@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "development",
     "require": {}
 }

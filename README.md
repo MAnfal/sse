@@ -1,6 +1,10 @@
 # sse
 SSE is a Laravel wrapper for PHP Library LibSSE for implementing asynchronous Server Sent Events and pass them on to views.
 
+Stability
+`````````
+Development Alpha
+
 Laravel Supported versions
 --------------------------
 Laravel: 5.1
