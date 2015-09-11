@@ -11,18 +11,18 @@ Development Alpha
 
 Installing SSE
 --------------
-Download SSE package from github and extract zip file in vendor under MAnfal/sse folder.
+Download SSE package from github and extract zip file in vendor under manfal/sse folder.
 
 place following service provider in config/app.php folder under providers array.
 
 ```bash
-	'MAnfal\sse\SSEServiceProvider'
+	'manfal\sse\SSEServiceProvider'
 ```
 place following facades in config/app.php folder under aliases array.
 
 ```bash
-	'SSE' => 'MAnfal\sse\SSEFacade',
-	'SSEEvent' => 'MAnfal\sse\SSEEventFacade'
+	'SSE' => 'manfal\sse\SSEFacade',
+	'SSEEvent' => 'manfal\sse\SSEEventFacade'
 ```
 
 Usage
