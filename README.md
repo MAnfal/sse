@@ -11,7 +11,24 @@ Stable
 
 Installing SSE
 --------------
-Download SSE package from github and extract zip file in vendor under manfal/sse folder.
+
+Use composer to download latest package to laravel installation
+
+```bash
+	composer require manfal/sse
+```
+
+or manually add package in require array of composer.json
+
+```bash
+    "manfal/sse": "dev-master"
+```
+
+and run
+
+```bash
+	composer update
+```
 
 place following service provider in config/app.php folder under providers array.
 
