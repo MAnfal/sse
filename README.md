@@ -7,7 +7,7 @@ Laravel: 5.1
 
 Stability
 ---------
-Development Alpha
+Stable
 
 Installing SSE
 --------------
