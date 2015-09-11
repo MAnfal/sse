@@ -7,7 +7,7 @@ Laravel: 5.1
 
 Installing SSE
 --------------
-Download SSE and extract zip file in vendor under MAnfal/sse folder.
+Download SSE package from github and extract zip file in vendor under MAnfal/sse folder.
 
 place following service provider in config/app.php folder under providers array.
 
