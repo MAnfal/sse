@@ -1,6 +1,6 @@
 {
     "name": "manfal/sse",
-    "description": "This library is a wrapper for LibSSE for laravel.It asynchronously communicate server side events to client side via persistant connection.",
+    "description": "SSE is a Laravel wrapper for PHP Library LibSSE for implementing asynchronous Server Sent Events and pass them on to views.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,6 +9,6 @@
             "email": "muhammadanfal0@gmail.com"
         }
     ],
-    "minimum-stability": "development",
+    "minimum-stability": "dev",
     "require": {}
 }
