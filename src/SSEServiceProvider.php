@@ -1,7 +1,7 @@
 <?php
 
 namespace MAnfal\sse;
-
+require_once('libsse.php');
 use Illuminate\Support\ServiceProvider;
 class SSEServiceProvider extends ServiceProvider
 {
