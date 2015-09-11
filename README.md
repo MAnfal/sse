@@ -6,7 +6,7 @@ Laravel Supported versions
 Laravel: 5.1
 
 Stability
-`````````
+---------
 Development Alpha
 
 Installing SSE
