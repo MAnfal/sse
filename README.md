@@ -110,8 +110,4 @@ $>	php artisan make:controller SSEDemoController
 	Route::get('/ssedemo', 'SSEDemoController@sseCheck');
 ```
 
-5. Refresh your browser and see updation of time in realtime.
-
-Warning
--------
-This package is still under development and events other than TimeEvents are yet to  be added.
+5. Refresh your browser.
