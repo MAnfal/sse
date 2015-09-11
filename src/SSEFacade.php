@@ -2,11 +2,11 @@
 
 use Illuminate\Support\Facades\Facade;
 
-class ImageuploadFacade extends Facade {
+class SSEFacade extends Facade {
 
     protected static function getFacadeAccessor()
     {
-        return 'SSE';
+        return 'WSSE';
     }
 
 }
