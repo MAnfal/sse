@@ -9,6 +9,16 @@
             "email": "muhammadanfal0@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "manfal\\sse\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1"
+        }
+    },
+    "minimum-stability": "stable"
 }
