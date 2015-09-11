@@ -23,6 +23,9 @@ class SSEServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app['SSE'] = $this->app->share(function($app)
+        {
+            return SSE::class;
+        });
     }
 }
