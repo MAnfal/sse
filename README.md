@@ -5,6 +5,10 @@ Laravel Supported versions
 --------------------------
 Laravel: 5.1
 
+Stability
+`````````
+Development Alpha
+
 Installing SSE
 --------------
 Download SSE package from github and extract zip file in vendor under MAnfal/sse folder.
