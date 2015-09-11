@@ -3,7 +3,6 @@
 namespace MAnfal\sse;
 
 use Illuminate\Support\ServiceProvider;
-
 class SSEServiceProvider extends ServiceProvider
 {
     /**
@@ -16,14 +15,14 @@ class SSEServiceProvider extends ServiceProvider
         //
     }
     private function registerSSEEvent() {
-        $this->app['WSSEEVENT'] = $this->app->share(function($app)
+        $this->app['SSEEVENT'] = $this->app->share(function($app)
         {
             return SSEEvent::class;
         });
     }
 
     private function registerSS() {
-        $this->app['WSSE'] = $this->app->share(function($app)
+        $this->app['SSE'] = $this->app->share(function($app)
         {
             return SSE::class;
         });
