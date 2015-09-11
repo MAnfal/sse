@@ -1,5 +1,5 @@
 # sse
-SSE is a Laravel PHP Library for implementing asynchronous Server Side Events and pass them on to views.
+SSE is a Laravel wrapper for PHP Library LibSSE for implementing asynchronous Server Sent Events and pass them on to views.
 
 Laravel Supported versions
 --------------------------
